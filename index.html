@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Manogna Maddipatla | Writing, Data, Design</title>
+  <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Shadows+Into+Light&display=swap" rel="stylesheet">
+  <style>
+    .handwriting { font-family: 'Shadows Into Light', cursive; }
+    html {
+      scroll-behavior: smooth;
+    }
+  </style>
+</head>
+<body class="bg-white text-gray-900">
+
+  <!-- Navigation Bar with light rose background -->
+  <nav class="bg-red-100 shadow sticky top-0 z-50">
+    <div class="max-w-6xl mx-auto px-4 py-4 flex justify-between items-center">
+      <a href="#" class="text-2xl handwriting text-gray-800">Manogna Maddipatla</a>
+      <div class="space-x-6 text-gray-700 font-medium">
+        <a href="#about" class="hover:text-red-700">About</a>
+        <a href="#projects" class="hover:text-red-700">Projects</a>
+        <a href="#contact" class="hover:text-red-700">Contact</a>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Full-width Header Image -->
+  <div class="w-full h-64 sm:h-80 md:h-96 overflow-hidden">
+    <img src="./assets/Me_books.jpg" alt="Manogna's Header Photo" class="w-full h-full object-cover" />
+  </div>
+
+  <!-- About Section -->
+  <section id="about" class="max-w-3xl mx-auto p-6">
+    <h2 class="text-3xl handwriting mb-2">About Me</h2>
+    <p class="text-gray-700">
+      As a writer drawn to interactive storytelling, I wear many hats. I combine my background in journalism and technical writing with a growing interest in frontend development to create compelling, visual narratives at the intersection of data, design, and storytelling.
+    </p><br>
+    <p>
+      I'm especially interested in projects that deepen public understanding of complex topics such as gender issues, climate change, and social equity. Through scrollytelling, maps, and charts, I aim to build experiences that inform, engage, and inspire readers.
+    </p>
+  </section>
+
+  <!-- Projects Section -->
+  <section id="projects" class="py-10">
+    <div class="max-w-6xl mx-auto px-4">
+      <h2 class="text-3xl handwriting mb-6">Projects</h2>
+      <div class="grid gap-6 grid-cols-1 sm:grid-cols-2 lg:grid-cols-3">
+        <!-- Project Card 1 -->
+        <div class="bg-red-100 rounded-xl shadow p-4">
+          <img src="./assets/bird-data (1).png" alt="Bird Project Screenshot" class="w-full rounded mb-4" />
+          <h3 class="text-xl font-bold text-gray-900">Birds on the Brink</h3>
+          <p class="text-gray-800 text-sm mb-3">An interactive chart showing declining bird populations using U.S. Geological Survey data.</p>
+          <a href="https://public.flourish.studio/visualisation/22997181/" class="text-red-700 hover:underline font-medium">View Project →</a>
+        </div>
+
+        <!-- Project Card 2 -->
+        <div class="bg-red-100 rounded-xl shadow p-4">
+          <img src="./assets/Women-data-story.png" alt="Women Labor Story" class="w-full rounded mb-4" />
+          <h3 class="text-xl font-bold text-gray-900">Women in Indian labor force: A data story</h3>
+          <p class="text-gray-800 text-sm mb-3">An interactive story exploring the factors influencing female labor force participation in India.</p>
+          <a href="https://manojna18.github.io/interactive-data-story/" class="text-red-700 hover:underline font-medium">View Project →</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact Footer -->
+  <footer id="contact" class="bg-red-100 p-6 mt-10">
+    <h2 class="text-3xl handwriting font-bold mb-4">Contact</h2>
+    <div class="flex flex-wrap gap-6 text-gray-800 font-medium">
+      <p>Email: <a href="mailto:youremail@example.com" class="text-red-700 hover:underline">youremail@example.com</a></p>
+      <p>Resume: <a href="/resume.pdf" class="text-red-700 hover:underline" target="_blank">View PDF</a></p>
+      <p>LinkedIn: <a href="https://www.linkedin.com/in/yourprofile" class="text-red-700 hover:underline" target="_blank">Manogna Maddipatla</a></p>
+      <p>GitHub: <a href="https://github.com/yourusername" class="text-red-700 hover:underline" target="_blank">@yourusername</a></p>
+    </div>
+  </footer>
+
+</body>
+</html>
